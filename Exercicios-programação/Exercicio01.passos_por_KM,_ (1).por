@@ -6,13 +6,11 @@ programa
 		real  passo, distancia
 		const real METRO_POR_PASSO = 0.82
 		
-		escreva("Qual a distância em km? ")
-		leia(distancia)                 /////
-
-		\\\\\\\\\|\\||||||||||||||||              '          
+		escreva("Qual a distância em km? \n")
+		leia(distancia)         
 	
 		passo = distancia /( METRO_POR_PASSO / 1000)
-		escreva("quantidade de passos: ", passo)
+		escreva("\nquantidade de passos: ", passo)
 		
 	}
 }
